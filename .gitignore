@@ -1,0 +1,28 @@
+# Raw data (repo is public; the training data must not be committed)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+.vscode/
